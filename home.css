@@ -1,0 +1,810 @@
+/* to widespread it */
+body{
+    margin-left: -10px;
+   
+}
+#nav_sign
+{
+  display: none;
+}
+/* nav bar styling */
+.navigation_bar{
+    display:flex ;
+    flex-direction: row;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -5px;
+    margin-top: -10px;
+    
+
+}
+.navigation{
+    color:white;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Verdana;
+    text-decoration: none;
+
+}
+.navigation:hover{
+    font-size: 16px;
+    transition: 0.5s;
+}
+#nav_home,#nav_about,#nav_contact,#nav_search,#nav_sign
+{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+#nav_home
+{
+    margin-left: 5px;
+    background-color: rgb(12, 230, 12);
+    text-align: center;
+}
+#nav_p
+{
+    padding-right: 40%;
+}
+/* contact bar styling */ 
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact_us_mob{
+    display: none;
+}
+
+#contact_us{
+    background-color: black;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left: 370px;
+    margin-bottom:-30px;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+.contact{
+    color:white;
+    text-align: center;
+    padding:30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Verdana;
+    text-decoration: none;   
+}
+.contact:hover{
+    font-size: 16px;
+    transition: 0.5s;
+}
+/* copyright styling */
+.copyright{
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+    margin-left: -10px;
+    margin-right: -5px;
+    margin-bottom: -30px;
+}
+/* about us styling */
+#our_mission,#about_us_heading{
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 25px;
+}
+#mission_text
+{
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+.about-us{
+    background-color: rgb(255, 245, 245);
+    padding:10px;
+}
+#about_us_text{
+    padding-bottom: 2000px;
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  #one,#two,#three
+  {
+      height: 700px;
+  }
+  /*END OF SLIDE SHOW*/
+  .linear_grad{
+      margin-top: -20px;
+      display: flex;
+      border: 2px solid black;
+      background-image: linear-gradient(to right,rgb(253, 167, 253),rgb(250, 186, 186),rgb(255, 255, 124));
+  }
+  .lin{
+      padding-bottom: 20px;
+      padding-top: 20px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  #lin_1,#lin_2,#lin_3,#lin_p1,#lin_p2,#lin_p3
+  {
+      text-align: center;
+  }
+  /* here we do latest images styling */
+  .left_shift
+  {
+      margin-left: 0;
+  }
+  .left_shift_home
+  {
+    margin-left: 100px;
+  }
+  .latest_craft
+  {
+      padding: 20px;
+      padding-bottom: 350px;
+      background-color: rgb(255, 245, 245);
+  }
+  #latest_head
+  {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      font-family: Verdana;
+  }
+  div.gallery {
+    background-color: rgb(255, 245, 245);
+    float: left;
+    width: 200px;
+    margin: 50px;
+  }
+  
+  div.gallery:hover {
+    box-shadow:2px 2px 20px  black;
+    transform:scale(1.01,1.01) ;
+    transition: 0.1s;
+  }
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: verdana;
+    color: black;
+  }
+  /* user reviews */
+  .reviews{
+     display: flex;
+     padding: 50px;
+     padding-left: 200px;
+  }
+  #review_heading
+  {
+    text-align: center;
+  }
+  .review_1,.review_2,.review_3 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 50px;
+     padding-right: 50px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: 600;
+
+
+  }
+  .review_p{
+      font-family:arial ;
+      font-family: 'Montserrat', sans-serif;
+  }
+  /* products page styling */
+  .left_shift_products
+  {
+      margin-left: 0;
+  }
+  #products_head
+  {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      font-family: Verdana;
+  }
+  div.gallery_products {
+    background-color: rgb(255, 245, 245);
+    float: left;
+    width: 200px;
+    margin: 30px;
+  }
+  div.desc_products {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: verdana;
+    color: black;
+  }
+  div.gallery_products:hover {
+    box-shadow:2px 2px 20px  black;
+    transform:scale(1.01,1.01) ;
+    transition: 0.1s;
+  }
+  div.gallery_products img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+  }
+  .categories
+  {
+      padding: 20px;
+      padding-bottom: 700px;
+      background-color: rgb(255, 245, 245);
+  }
+  /* sign in page styling */
+  .signin_page
+  {
+      padding: 50px;
+      background-color:rgb(255, 245, 245) ;
+  }
+  .sign_label,.sign_input{
+    font-family: Calibri, Helvetica, sans-serif;
+    
+  }
+  .sign_input{
+    width: 100%;
+    padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+   border: 2px solid black;
+   background: #e9e2e2;
+  }
+  #sign_pass
+  {
+      margin-top: 5px;
+    margin-right: -60px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: -30px;
+    padding-left: -30px;
+    margin-bottom: 22px;
+  display: inline-block;
+   border: 2px solid black;
+   background: #e9e2e2;
+  }
+  #sign_show i{
+      margin-left: -60px;;
+  }
+    .sign_label{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: arial;
+  }
+  .sign_radio{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: arial;
+  }
+  #register_button
+  {
+    background-color: rgba(81, 255, 75, 0.253);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  #error_message
+  {
+      display: none;
+      text-align: center;
+      color: red;
+      background-color: rgb(255, 182, 182);
+      border: 2px solid red;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 5px;
+  }
+  /* categories page */
+  
+  /* full view .products */
+  #fullview
+  {
+      display: none;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 600px;
+    background-color: rgb(255, 245, 245);
+  }
+  #fullview_img{
+    float: left;
+    padding-right: 20px;
+  }
+  #fullview_desc
+  {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: arial;   
+  }
+  #fullview_button{
+    padding-left:200px ;
+    padding-right:200px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(81, 255, 75, 0.253);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #back_button
+  {
+    padding-left:200px ;
+    padding-right: 240px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(81, 255, 75, 0.253);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  /* buy now styling */
+#address
+  {
+      padding: 50px;
+      background-color:rgb(255, 245, 245) ;
+  }
+  #button_for_lat_long{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(81, 255, 75, 0.253);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  #login_link
+  {
+    text-align: center;
+    padding-left: 500px;
+    color: rgb(0, 153, 255);
+  }
+  /* bill styling */
+  .confirmation_bar
+  {
+    background-color: rgb(255, 245, 245);
+  }
+  #confirmation
+  {
+    padding:20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /* here we start styling for mobile phone to make our website responsive */
+@media only screen and (max-width: 480px)
+{
+    body{
+        margin-right: -200px;
+    }
+    .navigation_bar{
+        margin-right: -25px;
+        display:flex ;
+        flex-direction: column;
+        background-color: black;
+    }
+    #nav_p
+    {
+        display: none;
+        padding-right: 0%;
+    }
+    .navigation{
+        color:white;
+        text-align: center;
+        padding-right: 0px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: Verdana;
+        text-decoration: none;
+    
+    }
+    #nav_home,#nav_about,#nav_contact,#nav_search
+    {
+        margin-bottom: -15px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #nav_home
+    {
+        background-color: rgb(12, 230, 12);
+        text-align: center;
+    }
+    #our_mission,#about_us_heading{
+        text-align: center;
+        color: red;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    #mission_text
+    {
+        text-align: center;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .about-us{
+        background-color: rgb(255, 233, 233);
+        padding:0;
+        margin-right: -25px;
+        margin-bottom: -20px;
+    }
+    #about_us_text{
+        padding-bottom: 2000px;
+    }
+    #contact_us{
+        display: none;
+    }
+    #contact_us_mob{
+        display: block;
+        background-color: black;
+         padding-top:40px;
+        padding-bottom:40px;
+        padding-left: 60px;
+        margin-bottom:-30px;
+        margin-left: -10px;
+        margin-right: -25px;  
+    }
+    .contact_mob{
+        color:white;
+        text-align: center;
+        padding:30px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: Verdana;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+    .contact_mob_sign{
+      color:white;
+      text-align: center;
+      padding:15px;
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: Verdana;
+      text-decoration: none;
+      margin-left: 30px;
+  }
+    #contact_var_mob{
+        padding-left: 360px;
+    }
+    .contact_mob:hover{
+        font-size: 16px;
+        transition: 0.5s;
+    }
+    .copyright{
+        color: white;
+        background-color: black;
+        padding-left: 20px;
+        margin-left: -10px;
+        margin-right: -25px;
+        margin-bottom: -30px;
+    }
+    .linear_grad{
+        margin-top: -20px;
+        margin-right: -25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: 2px solid black;
+        background-image: linear-gradient(to bottom,rgb(253, 167, 253),rgb(250, 186, 186),rgb(255, 255, 124));
+    }
+    .lin{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 100px;
+    }
+    #lin_1,#lin_2,#lin_3,#lin_p1,#lin_p2,#lin_p3
+    {
+        text-align: center;
+    }
+    /* mobile styling latest */
+    .left_shift
+    {
+        margin-left: 10px;
+    }
+    .latest_craft
+    {
+        margin-right: -25px;
+        display: block;
+        padding: 20px;
+        padding-bottom: 557px;
+        background-color: rgb(255, 245, 245);
+    }
+    #latest_head
+    {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: Verdana;
+    }
+    div.gallery {
+        background-color: rgb(255, 245, 245);
+        float: left;
+        width: 200px;
+        margin: 20px;
+        margin-left: 30px;
+    }
+    
+    div.gallery:hover {
+        box-shadow:2px 2px 20px  black;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: 200px;
+        border: 2px solid black;
+    }
+    div.desc {
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: verdana;
+        color: black;
+    }
+    /* mobile styling reviews */
+    .reviews{
+        display: block;
+        padding: 10px;
+        padding-left: 130px;
+     }
+     #review_heading
+     {
+         padding-top: 20px;
+       text-align: center;
+     }
+     .review_1,.review_2,.review_3 {
+        padding-top: 0;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 120px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+   
+   
+     }
+     .review_p{
+         font-family:arial ;
+         font-family: 'Montserrat', sans-serif;
+     }
+
+     /* sign-in page mobile */
+
+     .signin_page
+     {
+         margin-right: -22px;
+         padding: 50px;
+         background-color:rgb(255, 245, 245) ;
+     }
+     .sign_label,.sign_input{
+       font-family: Calibri, Helvetica, sans-serif;
+       
+     }
+     .sign_input{
+       width: 100%;
+       padding: 15px;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+      border: 2px solid black;
+      background: #e9e2e2;
+     }
+     #sign_pass
+     {
+       margin-right: -60px;
+       width: 100%;
+       padding-top: 15px;
+       padding-bottom: 15px;
+       padding-right: -30px;
+       padding-left: -30px;
+       margin-bottom: 22px;
+     display: inline-block;
+      border: 2px solid black;
+      background: #e9e2e2;
+     }
+     #sign_show i{
+         margin-left: -60px;;
+     }
+     .sign_label{
+       font-size: 25px;
+       font-weight: 600;
+       font-family: arial;
+     }
+     .sign_radio{
+       font-size: 16px;
+       font-weight: 600;
+       font-family: arial;
+     }
+     #register_button
+     {
+       background-color: rgba(81, 255, 75, 0.253);
+       font-size: 20px;
+       font-weight: 800;
+     }
+     #login_button{
+         margin-top: -10px;
+         background-color: rgba(81, 255, 75, 0.253);
+         font-size: 20px;
+         font-weight: 800;
+     }
+     #error_message
+     {
+         display: none;
+         text-align: center;
+         color: red;
+         background-color: rgb(255, 182, 182);
+         border: 2px solid red;
+         font-size: 20px;
+         font-weight: 600;
+         padding: 5px;
+     }
+     /* categories on product page */
+     .categories
+    {
+        margin-right: -25px;
+        display: block;
+        padding: 20px;
+        padding-bottom: 230%;
+        background-color: rgb(255, 245, 245);
+    }
+    .left_shift_products{
+      padding-left: 100px;
+    }
+    /* mobile full view */
+  #fullview
+  {
+    margin-right: -25px;
+      display: none;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(255, 245, 245);
+  }
+  #fullview_img{
+    padding-left: 20px;
+    width: 650px;
+  }
+  #fullview_desc
+  {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: arial;   
+  }
+  #fullview_button{
+    margin-left: 30px;
+    padding-left:235px ;
+    padding-right:235px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(81, 255, 75, 0.253);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #back_button
+  {
+    margin-left: 30px;
+    padding-left:235px ;
+    padding-right:275px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(81, 255, 75, 0.253);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .confirmation_bar
+  {
+    margin-right: -25px;
+    background-color: rgb(255, 245, 245);
+  }
+}
